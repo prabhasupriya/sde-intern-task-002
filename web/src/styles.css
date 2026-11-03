@@ -1,0 +1,115 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  background: #f5f6f8;
+  line-height: 1.45;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 8px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dde0e5;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #b8bcc4;
+}
+
+button {
+  background: #1f4fd8;
+  border-color: #1f4fd8;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.error {
+  color: #b42318;
+  margin: 8px 0 0;
+  flex-basis: 100%;
+}
+
+.empty,
+.muted {
+  color: #5b616b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.balances li,
+.share {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eef0f3;
+}
+
+.share {
+  flex-wrap: wrap;
+}
+
+.share-name {
+  flex: 1;
+}
+
+.share-error {
+  margin: 0;
+}
+
+.paid {
+  color: #067647;
+  font-weight: 600;
+}
+
+.bills {
+  display: grid;
+  gap: 4px;
+}
